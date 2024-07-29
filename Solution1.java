@@ -1,4 +1,4 @@
-public class Question1 {
+public class Solution1 {
     public static int reverse(int x) {
         int INT_MAX = 2147483647; // 2^31 - 1
         int INT_MIN = -2147483648; // -2^31
@@ -24,8 +24,16 @@ public class Question1 {
     }
     
     public static void main(String[] args) {
-        System.out.println(reverse(123));   // Output: 321
-        System.out.println(reverse(-123));  // Output: -321
-        System.out.println(reverse(120));   // Output: 21
+        System.out.println(reverse(123));   
+        System.out.println(reverse(-123));  
+        System.out.println(reverse(120));   
     }
 }
+//Follow these steps to run the program:
+// 1. javac Solution1.java
+// 2. java Solution
+
+//Output
+// 321
+// -321
+// 21

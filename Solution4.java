@@ -1,4 +1,4 @@
-public class Question4 {
+public class Solution4{
 
     public static void main(String[] args) {
               
@@ -41,3 +41,10 @@ public class Question4 {
     }
     
 }
+
+//To run the program follow these steps:
+//1. javac Solution4.java
+//2. java Solution
+
+//Expected Output
+// warn seat  8

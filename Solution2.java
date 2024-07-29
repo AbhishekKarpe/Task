@@ -1,4 +1,4 @@
-public class Question2 {
+public class Solution2 {
 
     public static void printTheSequence(int a, int b, int n) {
         int sum = a;
@@ -16,7 +16,15 @@ public class Question2 {
     }
     
     public static void main(String[] args) {
-        printTheSequence(0, 2, 10); // Should print: 2 6 14 30 62 126 254 510 1022 2046
-        printTheSequence(5, 3, 5);  // Should print: 8 14 26 50 98
+        printTheSequence(0, 2, 10); 
+        printTheSequence(5, 3, 5);  
     }
 }
+
+//Follow these steps to run the program:
+// 1. javac Solution2.java
+// 2. java Solution
+
+//Output
+// 2 6 14 30 62 126 254 510 1022 2046
+// 8 14 26 50 98

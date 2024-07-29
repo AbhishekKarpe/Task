@@ -1,5 +1,8 @@
-class Question3 {
+// Java program to check if there exists a pair
+// in array whose sum results in x.
+class Solution3 {
 
+    // Function to find and print pair
     static boolean chkPair(int A[], int size, int x)
     {
         for (int i = 0; i < (size - 1); i++) {
@@ -29,4 +32,9 @@ class Question3 {
     }
 }
 
+//Follow these steps to run the program:
+// 1. javac Solution3.java
+// 2. java Solution
 
+//Output
+// Yes
